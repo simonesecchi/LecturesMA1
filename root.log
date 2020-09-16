@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.7.27)  30 JUL 2020 18:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.9.13)  16 SEP 2020 11:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**root.tex
+**root
 (./root.tex
 LaTeX2e <2020-02-02> patch level 5
-L3 programming layer <2020-07-17>
+L3 programming layer <2020-09-06>
 (c:/texlive/2020/texmf-dist/tex/latex/koma-script/scrbook.cls
 Document Class: scrbook 2020/07/22 v3.31 KOMA-Script document class (book)
 (c:/texlive/2020/texmf-dist/tex/latex/koma-script/scrkbase.sty
@@ -226,10 +226,10 @@ Package: amsthm 2020/05/29 v2.20.6
 )
 (c:/texlive/2020/texmf-dist/tex/latex/xpatch/xpatch.sty
 (c:/texlive/2020/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2020-07-17 L3 programming layer (loader) 
+Package: expl3 2020-09-06 L3 programming layer (loader) 
 
-(c:/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
-File: l3backend-pdfmode.def 2020-06-29 L3 backend support: PDF mode
+(c:/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2020-09-11 L3 backend support: PDF output (pdfTeX)
 \l__kernel_color_stack_int=\count191
 \l__pdf_internal_box=\box52
 ))
@@ -245,7 +245,7 @@ Package: xparse 2020-05-15 L3 Experimental document command parser
 \l__xparse_v_nesting_int=\count195
 ))
 (c:/texlive/2020/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2020/07/15 v2.5i e-TeX tools for LaTeX (JAW)
+Package: etoolbox 2020/08/24 v2.5j e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count196
 ))
 Class scrbook Info: amsthm's \deferred@thm@head patched.
@@ -272,7 +272,7 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 Package color Info: Driver file: pdftex.def on input line 147.
 
 (c:/texlive/2020/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+File: pdftex.def 2020/08/26 v1.2 Graphics/color driver for pdftex
 ))
 (c:/texlive/2020/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
@@ -301,10 +301,10 @@ Package graphics Info: Driver file: pdftex.def on input line 105.
 \Gin@req@width=\dimen149
 )
 (c:/texlive/2020/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2020/07/13 3.47 The Babel package
+Package: babel 2020/09/01 3.48 The Babel package
 
 (c:/texlive/2020/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2020/07/13 3.47 Babel common definitions
+File: babel.def 2020/09/01 3.48 Babel common definitions
 \babel@savecnt=\count199
 \U@D=\dimen150
 \l@babelnohyphens=\language86
@@ -612,7 +612,7 @@ LaTeX Font Info:    Redeclaring math symbol \varsigma on input line 66.
 \c@theorem=\count280
 
 (c:/texlive/2020/texmf-dist/tex/latex/todonotes/todonotes.sty
-Package: todonotes 2019/01/24 v1.1.2 Todonotes source and documentation.
+Package: todonotes 2020/08/18 v1.1.3 Todonotes source and documentation.
 Package: todonotes 2018/11/22
 
 (c:/texlive/2020/texmf-dist/tex/latex/base/ifthen.sty
@@ -1132,19 +1132,19 @@ Package rerunfilecheck Info: File `root.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 28279 strings out of 480906
- 562326 string characters out of 5912173
- 968072 words of memory out of 5000000
- 43307 multiletter control sequences out of 15000+600000
+ 28304 strings out of 480876
+ 562824 string characters out of 5911487
+ 969899 words of memory out of 5000000
+ 43362 multiletter control sequences out of 15000+600000
  574990 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 73i,12n,90p,10630b,402s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 73i,12n,90p,10626b,402s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{c:/texlive/2020/tex
 mf-dist/fonts/enc/dvips/lm/lm-ts1.enc}<c:/texlive/2020/texmf-dist/fonts/type1/p
 ublic/lm/lmr10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr12.pfb>
 <c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr7.pfb><c:/texlive/2020/tex
 mf-dist/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on root.pdf (5 pages, 83484 bytes).
+Output written on root.pdf (5 pages, 82627 bytes).
 PDF statistics:
  88 PDF objects out of 1000 (max. 8388607)
  60 compressed objects within 1 object stream
